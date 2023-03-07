@@ -1,0 +1,69 @@
+header {
+    color: #ababab;
+    border-radius: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-left: 100px;
+  }
+
+.topnav {
+  
+    padding: 10px 2%;
+    margin: auto;
+  }
+  
+  nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .active {
+    font-size: 50px;
+    color: #07e6d3;
+  
+    font-weight: 700;
+    font-family: "Nunito", sans-serif;
+    text-decoration: none;
+  }
+  .active span {
+    color: #ababab;
+  }
+  nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+  }
+  #resume-button-1 {
+    background-color: #4db5ff;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    border: 0;
+  }
+  #resume-button-1 i,
+  #resume-button-1 {
+    color: #fff;
+  }
+  nav ul li a::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    background: #15ff00;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+  }
+  nav ul li a:hover::after {
+    width: 100%;
+  }
