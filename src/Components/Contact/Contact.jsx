@@ -2,6 +2,8 @@ import React from 'react'
 import "./Contact.css"
 export const Contact = () => {
   return (
-    <div>Contact</div>
+    <div>
+      <section  id="contact">Contact</section>
+    </div>
   )
 }

@@ -3,6 +3,8 @@ import "./Skills.css";
 
 export const Skills = () => {
   return (
-    <div>Skills</div>
+    <div >
+      <section id='skills'>Skills</section>
+    </div>
   )
 }

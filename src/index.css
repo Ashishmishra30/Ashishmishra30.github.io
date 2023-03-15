@@ -46,6 +46,7 @@ background-image: url(../src/assets/bg-texture.png);
 width: var(--container-width-lg);
 margin: 0 auto;
 }
+
 h1, h2, h3, h4, h5{
     font-weight: 500;
 }
@@ -56,6 +57,7 @@ h1{
 
 section {
     margin-top: 8rem;
+    height: 100vh;
 }
 
 section >h2,section >h5{
@@ -90,4 +92,47 @@ a:hover{
     border-radius: 0.4rem;
     cursor: pointer;
     border: 1px solid var(--color-primary);
+    transition: var(--transition);
+}
+
+btn:hover{
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+}
+
+.btn-primary{
+    background: var(--color-primary);
+    color: var(--color-bg);
+}
+
+img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/*  *************  Media Queries ********** */
+
+@media screen and (max-width: 1024px){
+    .container{
+        width: var(--container-width-md);
+    }
+
+    section{
+        margin-top: 6rem;
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    .container{
+        width: var(--container-width-sm);
+    }
+
+    section>h2{
+        margin-bottom: 2rem;
+    }
+    
 }

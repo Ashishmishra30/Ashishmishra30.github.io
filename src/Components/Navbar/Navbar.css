@@ -1,4 +1,4 @@
-header {
+/* header {
     color: #ababab;
     border-radius: 5px;
     position: fixed;
@@ -14,17 +14,17 @@ header {
     margin: auto;
   }
   
-  nav {
+  navbar {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    position: fixed;
   }
   .active {
     font-size: 50px;
     color: #07e6d3;
-  
     font-weight: 700;
     font-family: "Nunito", sans-serif;
     text-decoration: none;
@@ -67,3 +67,31 @@ header {
   nav ul li a:hover::after {
     width: 100%;
   }
+
+  #btn{
+    width: max-content;
+    display: inline-block;
+    color: #4db5ff;
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid  #4db5ff;
+    transition: all 400ms ease;
+}
+
+#btn:hover{
+    background:  #fff;
+    color: #1f1f38;
+    border-color: transparent;
+} */
+
+
+
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  position: fixed;
+}
