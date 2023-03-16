@@ -88,10 +88,14 @@
 
 
 .navbar {
+  background: rgba(0,0,0,0.3);
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
   position: fixed;
+  backdrop-filter: blur(15px);
 }
+
+
