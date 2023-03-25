@@ -31,7 +31,7 @@ export const About = () => {
                   <small>5+</small>
                 </article>
               </div>
-              <p>
+              <p id="user-detail-intro">
               An enthusiastic Full Stack Web Developer, a lifelong learner,
               skilled in React.js Front-End Development. Knowledge of
               JavaScript, HTML, CSS, React.js, Chakra UI and Redux. High
