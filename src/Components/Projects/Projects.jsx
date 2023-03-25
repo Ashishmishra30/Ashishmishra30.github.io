@@ -1,6 +1,8 @@
 import React from 'react';
 import "./Projects.css";
 import rento from "../../assets/rento.PNG";
+import Automads from "../../assets/Automads.PNG";
+import Time from "../../assets/time-management.PNG";
 import html from "../../assets/html.png";
 import css from "../../assets/css.png";
 import javascript from "../../assets/javascript.png";
@@ -51,10 +53,10 @@ export const Projects = () => {
           </article>
           <article class="project-card" className='portfolio__item'>
             <div className="portfolio_item-image">
-              <img src={rento} alt="" />
+              <img src={Automads} alt="" />
             </div>
             <h2 class="project-title">Auto Mads</h2>
-            <h3 class="project-description">This website is clone of RentoMojo. Which provides furnitures on rent</h3>
+            <h3 class="project-description">This website is clone of Advance Auto parts. From there user can purchase auto parts and accessories.</h3>
             <h4 >Tech Stack :</h4>
             <div class="project-tech-stack">
                         <div><img src={html} alt="html"/></div>
@@ -64,16 +66,16 @@ export const Projects = () => {
                        
                     </div>
             <div className="portfolio__item-cta">
-            <a class="project-github-link" href="https://github.com/Ashishmishra30/joyful-pet-260" className='btn' target="_blank">Github</a>
-            <a class="project-deployed-link" href="https://rococo-cuchufli-ac3e40.netlify.app/" className='btn btn-primary' target="_blank">Live Demo</a>
+            <a class="project-github-link" href="https://github.com/Ashishmishra30/snotty-wash-4238-/tree/main/advance-auto-parts" className='btn' target="_blank">Github</a>
+            <a class="project-deployed-link" href="https://visionary-dango-75f9a0.netlify.app/" className='btn btn-primary' target="_blank">Live Demo</a>
             </div>
           </article>
           <article class="project-card" className='portfolio__item'>
             <div className="portfolio_item-image">
-              <img src={rento} alt="" />
+              <img src={Time} alt="" />
             </div>
             <h2 class="project-title">Time Rocket</h2>
-            <h3 class="project-description">This website is clone of RentoMojo. Which provides furnitures on rent</h3>
+            <h3 class="project-description">This website is clone of DeskTime. Which helps to manage your time accordingly your work</h3>
             <h4 >Tech Stack :</h4>
             <div class="project-tech-stack">
                         <div><img src={html} alt="html"/></div>
@@ -81,8 +83,8 @@ export const Projects = () => {
                         <div><img src={javascript} alt="js"/></div>
                     </div>
             <div className="portfolio__item-cta">
-            <a class="project-github-link" href="https://github.com/Ashishmishra30/joyful-pet-260" className='btn' target="_blank">Github</a>
-            <a class="project-deployed-link" href="https://rococo-cuchufli-ac3e40.netlify.app/" className='btn btn-primary' target="_blank">Live Demo</a>
+            <a class="project-github-link" href="https://github.com/nitishmandal01/pointless-books-8646" className='btn' target="_blank">Github</a>
+            <a class="project-deployed-link" href="https://time-rocket.netlify.app/index.html" className='btn btn-primary' target="_blank">Live Demo</a>
             </div>
           </article>
         </div>

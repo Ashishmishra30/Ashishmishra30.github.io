@@ -13,13 +13,14 @@ export const Contact = () => {
           <div className='contact__options'>
             <article className='contact__option'>
               <MdOutlineEmail className='contact__option-icon'/>
-              <h4>Email</h4>
-              <h5 id="contact-email">ashishmishra9467@gmail.com</h5>
+              <h4 id="contact-email">Email</h4>
+              <h5 >ashishmishra9467@gmail.com</h5>
               <a href="mailto:ashishmishra9467@gmail.com" target="_blank">Send Mail</a>
-            </article> <article className='contact__option'>
+            </article> 
+            <article className='contact__option'>
               <SlCallEnd className='contact__option-icon'/>
-              <h4>Mobile No</h4>
-              <h5  id="contact-phone">+91-9467922067</h5>
+              <h4 id="contact-phone">Mobile No</h4>
+              <h5>+91-9467922067</h5>
               <a href="tell:+91-9467922067" target="_blank">Call Me</a>
             </article>
           </div>

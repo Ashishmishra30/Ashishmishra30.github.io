@@ -98,4 +98,17 @@
   backdrop-filter: blur(15px);
 }
 
+@media screen and(max-width: 1024px) {
+  .navbar{
+    flex-direction: column;
+  }
+}
+
+@media screen and(max-width: 600px) {
+  .navbar{
+    flex-direction: column;
+  }
+}
+
+
 
