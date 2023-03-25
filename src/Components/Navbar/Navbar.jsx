@@ -77,7 +77,7 @@ export const Navbar = () => {
           Contact
         </a>
         <a
-          id="resume-button-1 resume-link-2"
+          id="resume-button-1"
           href={Ashish_Mishra_Resume}
           download
           class="nav-link resume"
