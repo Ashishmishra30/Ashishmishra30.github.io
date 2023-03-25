@@ -93,34 +93,3 @@ export const Navbar = () => {
     </div>
   );
 };
-
-// export const Navbar = () => {
-
-//     const styles = {
-//         marginLeft: "500px",
-//     }
-//     return (
-//         <div style={styles}>
-//             <header >
-//                 <div class="topnav" id="nav-menu">
-//                     <nav class="navbar-container container">
-//                         <ul class="nav_inner">
-//                             <li><a href="#home" class="nav-link home">Home</a></li>
-//                             <li><a href="#about" class="nav-link about">About</a></li>
-//                             <li><a href="#skills" class="nav-link skills">Skills</a></li>
-//                             <li><a href="#projects" class="nav-link projects">Projects</a></li>
-//                             <li><a href="#contact" class="nav-link contact">Contact</a></li>
-//                             <li>
-//                         <a id='btn'
-//                             class="nav-link resume"
-//                             href={Ashish_Mishra_Resume} download>Resume</a>
-//                             </li>
-//                         </ul>
-//                     </nav>
-
-//                 </div>
-
-//             </header>
-//         </div>
-//     )
-// }
