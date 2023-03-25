@@ -12,13 +12,13 @@ export const Projects = () => {
       <section id="projects">
         <h5>My Projects</h5>
         <h2>Projects</h2>
-        <div className="container portfolio__container" class="project-div">
+        <div className="container portfolio__container">
           <article class="project-card" className='portfolio__item'>
             <div className="portfolio_item-image">
               <img src={rento} alt="" />
             </div>
             <h2 class="project-title">Bright Furniture</h2>
-            <h3>This website is clone of RentoMojo. Which provides furnitures on rent</h3>
+            <h3 class="project-description">This website is clone of RentoMojo. Which provides furnitures on rent</h3>
             <h4 >Tech Stack :</h4>
             <div class="project-tech-stack">
                         <div><img src={html} alt="html"/></div>
@@ -36,7 +36,7 @@ export const Projects = () => {
               <img src={rento} alt="" />
             </div>
             <h2 class="project-title">Bright Furniture</h2>
-            <h3>This website is clone of RentoMojo. Which provides furnitures on rent</h3>
+            <h3 class="project-description">This website is clone of RentoMojo. Which provides furnitures on rent</h3>
             <h4 >Tech Stack :</h4>
             <div class="project-tech-stack">
                         <div><img src={html} alt="html"/></div>
@@ -54,7 +54,7 @@ export const Projects = () => {
               <img src={rento} alt="" />
             </div>
             <h2 class="project-title">Auto Mads</h2>
-            <h3>This website is clone of RentoMojo. Which provides furnitures on rent</h3>
+            <h3 class="project-description">This website is clone of RentoMojo. Which provides furnitures on rent</h3>
             <h4 >Tech Stack :</h4>
             <div class="project-tech-stack">
                         <div><img src={html} alt="html"/></div>
@@ -73,7 +73,7 @@ export const Projects = () => {
               <img src={rento} alt="" />
             </div>
             <h2 class="project-title">Time Rocket</h2>
-            <h3>This website is clone of RentoMojo. Which provides furnitures on rent</h3>
+            <h3 class="project-description">This website is clone of RentoMojo. Which provides furnitures on rent</h3>
             <h4 >Tech Stack :</h4>
             <div class="project-tech-stack">
                         <div><img src={html} alt="html"/></div>
