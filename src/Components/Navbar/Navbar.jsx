@@ -84,7 +84,7 @@ export const Navbar = () => {
           target="_blank"
         >
           {" "}
-          <span>
+          <span  id="resume-link-2">
             <AiOutlineDownload />
           </span>{" "}
           Resume
