@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.00b9f9ea.css",
-    "main.js": "/static/js/main.24f2481c.js",
+    "main.css": "/static/css/main.968aa73a.css",
+    "main.js": "/static/js/main.7f51f0ff.js",
     "static/media/rento.PNG": "/static/media/rento.88bd3880329f4dc4346b.PNG",
+    "static/media/Automads.PNG": "/static/media/Automads.f03e3645fd8df8f2c791.PNG",
     "static/media/Ashish_Mishra_Resume.pdf": "/static/media/Ashish_Mishra_Resume.4867317a801384ed6d66.pdf",
     "static/media/typescript.png": "/static/media/typescript.239bcaac755341c67add.png",
     "static/media/me.JPG": "/static/media/me.654de356c7044939e6a2.JPG",
     "static/media/mongo.png": "/static/media/mongo.95ebe78cca60e67709b4.png",
     "static/media/redux.png": "/static/media/redux.5de70b7bc0d2556a0958.png",
+    "static/media/time-management.PNG": "/static/media/time-management.05e591dca9937fe3be7d.PNG",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/nextjs.png": "/static/media/nextjs.48ddc8121a0fcb543d64.png",
@@ -18,11 +20,11 @@
     "static/media/chakra.jpg": "/static/media/chakra.22937fcd5af2100437bd.jpg",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.00b9f9ea.css.map": "/static/css/main.00b9f9ea.css.map",
-    "main.24f2481c.js.map": "/static/js/main.24f2481c.js.map"
+    "main.968aa73a.css.map": "/static/css/main.968aa73a.css.map",
+    "main.7f51f0ff.js.map": "/static/js/main.7f51f0ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.00b9f9ea.css",
-    "static/js/main.24f2481c.js"
+    "static/css/main.968aa73a.css",
+    "static/js/main.7f51f0ff.js"
   ]
 }
