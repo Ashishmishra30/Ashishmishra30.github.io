@@ -12,7 +12,7 @@ export const Projects = () => {
       <section id="projects">
         <h5>My Projects</h5>
         <h2>Projects</h2>
-        <div className="container portfolio__container">
+        <div className="container portfolio__container" class="project-div">
           <article class="project-card" className='portfolio__item'>
             <div className="portfolio_item-image">
               <img src={rento} alt="" />
