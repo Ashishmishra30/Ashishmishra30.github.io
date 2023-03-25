@@ -1,0 +1,48 @@
+#skills {
+    margin-top: 100px;
+  }
+
+  #grid {
+    border-top: 1px solid #ababab;
+    width: 85%;
+    margin: auto;
+    padding: 3vh;
+    padding-top: 9vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4rem;
+    color: white;
+    text-align: center;
+  }
+  .skills-card-img {
+    width: 100px;
+    height: 100px;
+    
+  }
+  #skills-card {
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+  }
+
+  .skills-card-name{
+    /* margin-left: 20px; */
+    color:rgba(255, 255, 255, 0.6);
+  }
+
+
+
+  /*============ Media Queries ================= */ 
+
+@media screen and (max-width:1024px) {
+    #grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (min-width:600px) {
+    #grid{
+        grid-template-columns: repeat(4,1fr);
+    }
+
+}

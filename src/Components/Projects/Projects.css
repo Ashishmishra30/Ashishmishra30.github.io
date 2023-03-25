@@ -1,0 +1,56 @@
+.portfolio__container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
+}
+
+.portfolio__item{
+    background: var(--color-bg-variant);
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.portfolio__item:hover{
+   border-color: var(--color-primary-variant);
+   background: transparent;
+}
+
+.portfolio_item-image{
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.portfolio__item h3{
+    margin: 1.2rem 0 1rem;
+    color: var(--color-light);
+}
+
+.portfolio__item h2{
+    margin: 1.2rem 0 1rem;
+    color:gray;
+}
+
+.portfolio__item h4{
+    margin: 1.2rem 0;
+    color: var(--color-light);
+}
+
+.portfolio__item-cta{
+    display: flex;
+    justify-content: space-between
+}
+
+.project-tech-stack {
+    display: flex;
+    gap: 20px;
+    height: 50px;
+    margin: 0 0 1rem;
+  }
+
+  .project-tech-stack img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    
+  }
