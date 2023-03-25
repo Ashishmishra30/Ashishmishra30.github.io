@@ -81,6 +81,7 @@ export const Navbar = () => {
           href={Ashish_Mishra_Resume}
           download
           class="nav-link resume"
+          target="_blank"
         >
           {" "}
           <span>
