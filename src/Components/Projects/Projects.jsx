@@ -15,7 +15,8 @@ export const Projects = () => {
         <h5>My Projects</h5>
         <h2>Projects</h2>
         <div className="container portfolio__container">
-          <article class="project-card" className='portfolio__item'>
+          <div class="project-card">
+          <article  className='portfolio__item'>
             <div className="portfolio_item-image">
               <img src={rento} alt="" />
             </div>
@@ -33,7 +34,10 @@ export const Projects = () => {
             <a class="project-deployed-link" href="https://rococo-cuchufli-ac3e40.netlify.app/" className='btn btn-primary' target="_blank">Live Demo</a>
             </div>
           </article>
-          <article class="project-card" className='portfolio__item'>
+          </div>
+         
+         <div class="project-card">
+         <article  className='portfolio__item'>
             <div className="portfolio_item-image">
               <img src={rento} alt="" />
             </div>
@@ -51,7 +55,10 @@ export const Projects = () => {
             <a class="project-deployed-link" href="https://rococo-cuchufli-ac3e40.netlify.app/" className='btn btn-primary' target="_blank">Live Demo</a>
             </div>
           </article>
-          <article class="project-card" className='portfolio__item'>
+         </div>
+          
+          <div  class="project-card">
+          <article className='portfolio__item'>
             <div className="portfolio_item-image">
               <img src={Automads} alt="" />
             </div>
@@ -70,7 +77,10 @@ export const Projects = () => {
             <a class="project-deployed-link" href="https://visionary-dango-75f9a0.netlify.app/" className='btn btn-primary' target="_blank">Live Demo</a>
             </div>
           </article>
-          <article class="project-card" className='portfolio__item'>
+          </div>
+          
+          <div class="project-card">
+          <article  className='portfolio__item'>
             <div className="portfolio_item-image">
               <img src={Time} alt="" />
             </div>
@@ -87,6 +97,8 @@ export const Projects = () => {
             <a class="project-deployed-link" href="https://time-rocket.netlify.app/index.html" className='btn btn-primary' target="_blank">Live Demo</a>
             </div>
           </article>
+          </div>
+          
         </div>
       </section>
     </div>
