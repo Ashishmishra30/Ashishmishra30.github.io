@@ -31,7 +31,8 @@ export const About = () => {
                   <small>5+</small>
                 </article>
               </div>
-              <p id="user-detail-intro">
+              <div id="user-detail-intro">
+              <p >
               An enthusiastic Full Stack Web Developer, a lifelong learner,
               skilled in React.js Front-End Development. Knowledge of
               JavaScript, HTML, CSS, React.js, Chakra UI and Redux. High
@@ -40,7 +41,7 @@ export const About = () => {
               world-class Web Applications while facilitating organization in
               achieving function goals.
             </p>
-
+              </div>
             <a href="#contact" className="btn btn-primary">Let's Talk</a>
          
             </div>

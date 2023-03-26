@@ -96,6 +96,7 @@
   flex-wrap: wrap;
   position: fixed;
   backdrop-filter: blur(15px);
+  font-size: 1.4rem;
 }
 
 @media screen and(max-width: 1024px) {
