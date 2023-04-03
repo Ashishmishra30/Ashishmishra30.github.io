@@ -1,6 +1,7 @@
 import React from "react";
 import "./Projects.css";
 import rento from "../../assets/rento.PNG";
+import ChaloGhume from "../../assets/ChaloGhume.PNG";
 import Automads from "../../assets/Automads.PNG";
 import Time from "../../assets/time-management.PNG";
 import html from "../../assets/html.png";
@@ -61,12 +62,11 @@ export const Projects = () => {
           <div class="project-card">
             <article className="portfolio__item">
               <div className="portfolio_item-image">
-                <img src={rento} alt="" />
+                <img src={ChaloGhume} alt="" />
               </div>
-              <h2 class="project-title">Bright Furniture</h2>
+              <h2 class="project-title">Chalo Ghume</h2>
               <h3 class="project-description">
-                This website is clone of RentoMojo. Which provides furnitures on
-                rent
+                This website is clone of Expedia. Which helps in travelling.
               </h3>
               <h4>Tech Stack :</h4>
               <div class="project-tech-stack">
@@ -79,11 +79,14 @@ export const Projects = () => {
                 <div>
                   <img src={javascript} alt="js" />
                 </div>
+                <div>
+                  <img src={react} alt="react" />
+                </div>
               </div>
               <div className="portfolio__item-cta">
                 <a
                   class="project-github-link"
-                  href="https://github.com/Ashishmishra30/joyful-pet-260"
+                  href="https://github.com/kumkumdutta/interesting-stretch-8935"
                   className="btn"
                   target="_blank"
                 >
@@ -91,7 +94,7 @@ export const Projects = () => {
                 </a>
                 <a
                   class="project-deployed-link"
-                  href="https://rococo-cuchufli-ac3e40.netlify.app/"
+                  href="https://interesting-stretch-8935.vercel.app/"
                   className="btn btn-primary"
                   target="_blank"
                 >
