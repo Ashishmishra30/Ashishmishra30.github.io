@@ -49,9 +49,9 @@ export const Projects = () => {
                   Github
                 </a>
                 <a
-                  class="project-deployed-link"
+                  className="project-deployed-link"
                   href="https://interesting-stretch-8935.vercel.app/"
-                  className="btn btn-primary"
+                  // className="btn btn-primary"
                   target="_blank"
                 >
                   Live Demo
@@ -59,7 +59,7 @@ export const Projects = () => {
               </div>
             </article>
           </div>
-          
+
           <div class="project-card">
             <article className="portfolio__item">
               <div className="portfolio_item-image">
@@ -93,9 +93,9 @@ export const Projects = () => {
                   Github
                 </a>
                 <a
-                  class="project-deployed-link"
+                  className="project-deployed-link"
                   href="https://interesting-stretch-8935.vercel.app/"
-                  className="btn btn-primary"
+                  // className="btn btn-primary"
                   target="_blank"
                 >
                   Live Demo
@@ -139,9 +139,9 @@ export const Projects = () => {
                   Github
                 </a>
                 <a
-                  class="project-deployed-link"
+                  className="project-deployed-link"
                   href="https://visionary-dango-75f9a0.netlify.app/"
-                  className="btn btn-primary"
+                  // className="btn btn-primary"
                   target="_blank"
                 >
                   Live Demo
@@ -181,9 +181,9 @@ export const Projects = () => {
                   Github
                 </a>
                 <a
-                  class="project-deployed-link"
+                  className="project-deployed-link"
                   href="https://time-rocket.netlify.app/index.html"
-                  className="btn btn-primary"
+                  // className="btn btn-primary"
                   target="_blank"
                 >
                   Live Demo
