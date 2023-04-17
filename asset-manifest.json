@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e2c82082.css",
-    "main.js": "/static/js/main.e8f09402.js",
+    "main.css": "/static/css/main.d207bd3f.css",
+    "main.js": "/static/js/main.fff67aee.js",
     "static/media/rento.PNG": "/static/media/rento.88bd3880329f4dc4346b.PNG",
     "static/media/Automads.PNG": "/static/media/Automads.f03e3645fd8df8f2c791.PNG",
     "static/media/Ashish_Mishra_Resume.pdf": "/static/media/Ashish_Mishra_Resume.4867317a801384ed6d66.pdf",
@@ -21,11 +21,11 @@
     "static/media/chakra.jpg": "/static/media/chakra.22937fcd5af2100437bd.jpg",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.e2c82082.css.map": "/static/css/main.e2c82082.css.map",
-    "main.e8f09402.js.map": "/static/js/main.e8f09402.js.map"
+    "main.d207bd3f.css.map": "/static/css/main.d207bd3f.css.map",
+    "main.fff67aee.js.map": "/static/js/main.fff67aee.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2c82082.css",
-    "static/js/main.e8f09402.js"
+    "static/css/main.d207bd3f.css",
+    "static/js/main.fff67aee.js"
   ]
 }
