@@ -80,9 +80,9 @@ export const Navbar = () => {
           </span>{" "}
           Contact
         </a>
-        <button className='btn' id="resume-button-2" onClick={handleResume}        >
+        <button className='btn' id="resume-button-1" onClick={handleResume}        >
                 <a
-                  id="resume-link-2"
+                  id="resume-link-1"
                   href={Ashish_Mishra_Resume}
                   download="Ashish_Mishra_Resume"
                   target="_blank"

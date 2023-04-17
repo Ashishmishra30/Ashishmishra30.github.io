@@ -19,13 +19,12 @@ export const Header = () => {
           <h1  id="user-detail-name">Ashish Mishra</h1>
           <h5 className="text-light"  id="user-detail-intro">Full Stack Web Developer</h5>
          {/* <CTA/> */}
-         <button className='btn' id="resume-button-1" onClick={handleResume}        >
+         <button className='btn' id="resume-button-2" onClick={handleResume}        >
                 <a
-                  id="resume-link-1"
+                  id="resume-link-2"
                   href={Ashish_Mishra_Resume}
                   download="Ashish_Mishra_Resume"
                   target="_blank"
-                 // className={`${style.resumes} nav-link resume`}
                   rel="noreferrer"
                 >
                   Resume
