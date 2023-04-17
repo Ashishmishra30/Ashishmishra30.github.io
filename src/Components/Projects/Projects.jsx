@@ -47,9 +47,9 @@ export const Projects = () => {
                   Github
                 </a>
                 <a
-                  class="project-deployed-link"
+                  className="project-deployed-link"
                   href="https://rococo-cuchufli-ac3e40.netlify.app/"
-                  className="btn btn-primary"
+                  // className="btn btn-primary"
                   target="_blank"
                 >
                   Live Demo

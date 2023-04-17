@@ -66,6 +66,19 @@
     transition: var(--transition);
 }
 
+
+.project-deployed-link{
+    width: max-content;
+    display: inline-block;
+    color: var(--color-primary);
+    padding: 0.75rem 1.2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+    background: var(--color-primary);
+}
+
   /*============ Media Queries ================= */ 
 
 @media screen and (max-width:1024px) {
