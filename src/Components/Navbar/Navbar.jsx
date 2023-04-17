@@ -9,10 +9,14 @@ import {
 } from "react-icons/ai";
 import { FaUserAlt } from "react-icons/fa";
 import { BsFillBookFill } from "react-icons/bs";
+import { resumeLink } from "../Header/Header";
 
 export const Navbar = () => {
   const [activeNav, setActiveNav] = useState("#");
 
+  const handleResume=()=>{
+    window.open(resumeLink)
+  }
   return (
     <div id="nav-menu">
       <nav className="navbar">
@@ -76,19 +80,18 @@ export const Navbar = () => {
           </span>{" "}
           Contact
         </a>
-        <a
-          id="resume-button-1"
-          href={Ashish_Mishra_Resume}
-          download
-          class="nav-link resume"
-          target="_blank"
-        >
-          {" "}
-          <span  id="resume-link-2">
-            <AiOutlineDownload />
-          </span>{" "}
-          Resume
-        </a>
+        <button className='btn' id="resume-button-2" onClick={handleResume}        >
+                <a
+                  id="resume-link-2"
+                  href={Ashish_Mishra_Resume}
+                  download="Ashish_Mishra_Resume"
+                  target="_blank"
+                 // className={`${style.resumes} nav-link resume`}
+                  rel="noreferrer"
+                >
+                  Resume
+                </a>
+              </button>
       </nav>
     </div>
   );

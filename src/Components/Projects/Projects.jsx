@@ -40,9 +40,8 @@ export const Projects = () => {
               </div>
               <div className="portfolio__item-cta">
                 <a
-                  class="project-github-link"
+                  className="project-github-link"
                   href="https://github.com/Ashishmishra30/joyful-pet-260"
-                  className="btn"
                   target="_blank"
                 >
                   Github
@@ -85,9 +84,8 @@ export const Projects = () => {
               </div>
               <div className="portfolio__item-cta">
                 <a
-                  class="project-github-link"
+                  className="project-github-link"
                   href="https://github.com/kumkumdutta/interesting-stretch-8935"
-                  className="btn"
                   target="_blank"
                 >
                   Github
@@ -131,9 +129,9 @@ export const Projects = () => {
               </div>
               <div className="portfolio__item-cta">
                 <a
-                  class="project-github-link"
+                  className="project-github-link"
                   href="https://github.com/Ashishmishra30/snotty-wash-4238-/tree/main/advance-auto-parts"
-                  className="btn"
+            
                   target="_blank"
                 >
                   Github
@@ -174,9 +172,8 @@ export const Projects = () => {
               </div>
               <div className="portfolio__item-cta">
                 <a
-                  class="project-github-link"
+                  className="project-github-link"
                   href="https://github.com/nitishmandal01/pointless-books-8646"
-                  className="btn"
                   target="_blank"
                 >
                   Github
