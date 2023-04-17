@@ -14,9 +14,9 @@ import { resumeLink } from "../Header/Header";
 export const Navbar = () => {
   const [activeNav, setActiveNav] = useState("#");
 
-  const handleResume=()=>{
-    window.open(resumeLink)
-  }
+  const handleResume = () => {
+    window.open(resumeLink);
+  };
   return (
     <div id="nav-menu">
       <nav className="navbar">
@@ -80,18 +80,22 @@ export const Navbar = () => {
           </span>{" "}
           Contact
         </a>
-        <button  id="resume-button-1" onClick={handleResume}        >
-                <a
-                  id="resume-link-1"
-                  href={Ashish_Mishra_Resume}
-                  download="Ashish_Mishra_Resume"
-                  target="_blank"
-                  className= "nav-link resume"
-                  rel="noreferrer"
-                >
-                  Resume
-                </a>
-              </button>
+        <button id="resume-button-1" onClick={handleResume}>
+          <a
+            id="resume-link-1"
+            href={Ashish_Mishra_Resume}
+            download="Ashish_Mishra_Resume"
+            target="_blank"
+            className="nav-link resume"
+            rel="noreferrer"
+          >
+            {" "}
+            <span>
+              <AiOutlineDownload />
+            </span>{" "}
+            Resume
+          </a>
+        </button>
       </nav>
     </div>
   );

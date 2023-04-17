@@ -102,17 +102,22 @@
 #resume-link-1{
   width: max-content;
   display: inline-block;
-  color: var(--color-primary);
+  color:  #fff;
   padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   cursor: pointer;
-  border: 1px solid var(--color-primary);
+  border: 1px solid#4db5ff;
   transition: var(--transition);
+  background:#4db5ff;
+}
+
+#resume-button-1{
+  border-radius: 0.4rem;
 }
 
 #resume-link-1:hover{
-  background: var(--color-white);
-  color: var(--color-bg);
+  background: #2c2c6c;
+  color:  #fff;
   border-color: transparent;
 }
 
