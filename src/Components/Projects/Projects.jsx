@@ -59,6 +59,7 @@ export const Projects = () => {
               </div>
             </article>
           </div>
+          
           <div class="project-card">
             <article className="portfolio__item">
               <div className="portfolio_item-image">
