@@ -80,13 +80,13 @@ export const Navbar = () => {
           </span>{" "}
           Contact
         </a>
-        <button className='btn' id="resume-button-1" onClick={handleResume}        >
+        <button  id="resume-button-1" onClick={handleResume}        >
                 <a
                   id="resume-link-1"
                   href={Ashish_Mishra_Resume}
                   download="Ashish_Mishra_Resume"
                   target="_blank"
-                 className= "nav-link resume"
+                  className= "nav-link resume"
                   rel="noreferrer"
                 >
                   Resume

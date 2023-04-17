@@ -66,6 +66,12 @@
     transition: var(--transition);
 }
 
+.project-github-link:hover{
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+}
+
 
 .project-deployed-link{
     width: max-content;
@@ -76,7 +82,12 @@
     cursor: pointer;
     border: 1px solid var(--color-primary);
     transition: var(--transition);
-    background: var(--color-primary);
+}
+
+.project-deployed-link:hover{
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
 }
 
   /*============ Media Queries ================= */ 
