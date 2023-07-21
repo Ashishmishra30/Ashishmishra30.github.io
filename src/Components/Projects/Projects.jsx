@@ -50,7 +50,7 @@ export const Projects = () => {
                 </a>
                 <a
                   className="project-deployed-link"
-                  href="https://interesting-stretch-8935.vercel.app/"
+                  href="https://interesting-stretch-8935-liart.vercel.app/"
                   // className="btn btn-primary"
                   target="_blank"
                 >
@@ -94,7 +94,7 @@ export const Projects = () => {
                 </a>
                 <a
                   className="project-deployed-link"
-                  href="https://interesting-stretch-8935.vercel.app/"
+                  href="https://interesting-stretch-8935-liart.vercel.app/"
                   // className="btn btn-primary"
                   target="_blank"
                 >

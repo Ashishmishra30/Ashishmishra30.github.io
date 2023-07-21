@@ -49,11 +49,11 @@ const Calander = () => {
             {/* Loading the data just for you. */}
             <GitHubCalendar
               username="ashishmishra30"
-              blockSize={15}
+              blockSize={20}
               blockMargin={5}
-              color="#c084f5"
+              color="#2c2c6c"
               fontSize={16}
-              colorScheme="light"
+              colorScheme="dark"
               m={"auto"}
             />
           </div>
