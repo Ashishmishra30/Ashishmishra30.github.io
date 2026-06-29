@@ -1,199 +1,146 @@
 import React from "react";
 import "./Projects.css";
-import rento from "../../assets/rento.PNG";
-import ChaloGhume from "../../assets/ChaloGhume.PNG";
-import Automads from "../../assets/Automads.PNG";
-import Time from "../../assets/time-management.PNG";
-import html from "../../assets/html.png";
-import css from "../../assets/css.png";
-import javascript from "../../assets/javascript.png";
-import react from "../../assets/react.png";
+import {
+  FiCode,
+  FiPackage,
+  FiDatabase,
+  FiMessageSquare,
+  FiUsers,
+  FiCalendar,
+} from "react-icons/fi";
 
 export const Projects = () => {
   return (
     <div>
       <section id="projects">
-        <h5>My Projects</h5>
-        <h2>Projects</h2>
-        <div className="container portfolio__container">
-        <div class="project-card">
-            <article className="portfolio__item">
-              <div className="portfolio_item-image">
+        <h5>Professional Experience</h5>
+        <h2>Work at HKS</h2>
+        <div className="container experience__container">
+          {/* LePrince Project */}
+          <div className="project-card experience-card">
+            <div className="experience-header">
+              <div className="experience-icon">
+                <FiPackage />
+              </div>
+              <div>
+                <h2 className="project-title">LePrince</h2>
+                <p className="company-name">Movie Management System</p>
+              </div>
+            </div>
+
+            <h3 className="project-description">
+              Enterprise platform for cinema movie makers and sales agents.
+              Handles movie rights trading, with custom real-time chat for
+              negotiation and secure upload/download of movies up to 500GB.
+            </h3>
+
+            <div className="experience-highlights">
+              <div className="highlight-item">
+                <FiDatabase className="highlight-icon" />
+                <span>500GB file handling</span>
+              </div>
+              <div className="highlight-item">
+                <FiMessageSquare className="highlight-icon" />
+                <span>Real-time negotiation chat</span>
+              </div>
+              <div className="highlight-item">
+                <FiUsers className="highlight-icon" />
+                <span>Multi-role access control</span>
+              </div>
+            </div>
+
+            <h4>Key Features:</h4>
+            <ul className="feature-list">
+              <li>Secure movie upload/download infrastructure</li>
+              <li>Custom chat system for rights negotiation</li>
+              <li>Dynamic forms for trade management</li>
+              <li>Cinema & sales agent portal</li>
+            </ul>
+          </div>
+
+          {/* Hop.Wellness Project */}
+          <div className="project-card experience-card">
+            <div className="experience-header">
+              <div className="experience-icon hop-icon">
+                <FiCalendar />
+              </div>
+              <div>
+                <h2 className="project-title">Hop.Wellness</h2>
+                <p className="company-name">Booking & Appointment SaaS</p>
+              </div>
+            </div>
+
+            <h3 className="project-description">
+              Comprehensive SaaS solution for diagnostic centers to manage
+              bookings, staff appointments, and inventory purchases. Includes
+              admin dashboard and mobile apps for customers and staff.
+            </h3>
+
+            <div className="experience-highlights">
+              <div className="highlight-item">
+                <FiCalendar className="highlight-icon" />
+                <span>Appointment scheduling</span>
+              </div>
+              <div className="highlight-item">
+                <FiUsers className="highlight-icon" />
+                <span>Staff management</span>
+              </div>
+              <div className="highlight-item">
+                <FiCode className="highlight-icon" />
+                <span>Multi-platform solution</span>
+              </div>
+            </div>
+
+            <h4>Key Features:</h4>
+            <ul className="feature-list">
+              <li>Booking & appointment management system</li>
+              <li>Staff scheduling and tracking dashboard</li>
+              <li>Purchase & inventory management</li>
+              <li>Mobile apps for customers and staff</li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Old Projects - Commented */}
+        {/*
+        <div  className="container portfolio__container">
+        <divclassName="project-card">
+            <article  className="portfolio__item">
+              <div  className="portfolio_item-image">
                 <img src={ChaloGhume} alt="" />
               </div>
-              <h2 class="project-title">Chalo Ghume</h2>
-              <h3 class="project-description">
+              <h2className="project-title">Chalo Ghume</h2>
+              <h3className="project-description">
                 This website is clone of Expedia. Which helps in travelling.
               </h3>
-              <h4>Tech Stack :</h4>
-              <div class="project-tech-stack">
-                <div>
-                  <img src={html} alt="html" />
-                </div>
-                <div>
-                  <img src={css} alt="css" />
-                </div>
-                <div>
-                  <img src={javascript} alt="js" />
-                </div>
-                <div>
-                  <img src={react} alt="react" />
-                </div>
-              </div>
-              <div className="portfolio__item-cta">
-                <a
-                  className="project-github-link"
-                  href="https://github.com/kumkumdutta/interesting-stretch-8935"
-                  target="_blank"
-                >
-                  Github
-                </a>
-                <a
-                  className="project-deployed-link"
-                  href="https://interesting-stretch-8935-liart.vercel.app/"
-                  // className="btn btn-primary"
-                  target="_blank"
-                >
-                  Live Demo
-                </a>
-              </div>
             </article>
           </div>
 
-          <div class="project-card">
-            <article className="portfolio__item">
-              <div className="portfolio_item-image">
-                <img src={ChaloGhume} alt="" />
-              </div>
-              <h2 class="project-title">Chalo Ghume</h2>
-              <h3 class="project-description">
-                This website is clone of Expedia. Which helps in travelling.
-              </h3>
-              <h4>Tech Stack :</h4>
-              <div class="project-tech-stack">
-                <div>
-                  <img src={html} alt="html" />
-                </div>
-                <div>
-                  <img src={css} alt="css" />
-                </div>
-                <div>
-                  <img src={javascript} alt="js" />
-                </div>
-                <div>
-                  <img src={react} alt="react" />
-                </div>
-              </div>
-              <div className="portfolio__item-cta">
-                <a
-                  className="project-github-link"
-                  href="https://github.com/kumkumdutta/interesting-stretch-8935"
-                  target="_blank"
-                >
-                  Github
-                </a>
-                <a
-                  className="project-deployed-link"
-                  href="https://interesting-stretch-8935-liart.vercel.app/"
-                  // className="btn btn-primary"
-                  target="_blank"
-                >
-                  Live Demo
-                </a>
-              </div>
-            </article>
-          </div>
-
-          <div class="project-card">
-            <article className="portfolio__item">
-              <div className="portfolio_item-image">
+          <divclassName="project-card">
+            <article  className="portfolio__item">
+              <div  className="portfolio_item-image">
                 <img src={Automads} alt="" />
               </div>
-              <h2 class="project-title">Auto Mads</h2>
-              <h3 class="project-description">
-                This website is clone of Advance Auto parts. From there user can
-                purchase auto parts and accessories.
+              <h2className="project-title">Auto Mads</h2>
+              <h3className="project-description">
+                This website is clone of Advance Auto parts.
               </h3>
-              <h4>Tech Stack :</h4>
-              <div class="project-tech-stack">
-                <div>
-                  <img src={html} alt="html" />
-                </div>
-                <div>
-                  <img src={css} alt="css" />
-                </div>
-                <div>
-                  <img src={javascript} alt="js" />
-                </div>
-                <div>
-                  <img src={react} alt="react" />
-                </div>
-              </div>
-              <div className="portfolio__item-cta">
-                <a
-                  className="project-github-link"
-                  href="https://github.com/Ashishmishra30/snotty-wash-4238-/tree/main/advance-auto-parts"
-            
-                  target="_blank"
-                >
-                  Github
-                </a>
-                <a
-                  className="project-deployed-link"
-                  href="https://visionary-dango-75f9a0.netlify.app/"
-                  // className="btn btn-primary"
-                  target="_blank"
-                >
-                  Live Demo
-                </a>
-              </div>
             </article>
           </div>
 
-          
-
-          <div class="project-card">
-            <article className="portfolio__item">
-              <div className="portfolio_item-image">
+          <divclassName="project-card">
+            <article  className="portfolio__item">
+              <div  className="portfolio_item-image">
                 <img src={Time} alt="" />
               </div>
-              <h2 class="project-title">Time Rocket</h2>
-              <h3 class="project-description">
-                This website is clone of DeskTime. Which helps to manage your
-                time accordingly your work
+              <h2className="project-title">Time Rocket</h2>
+              <h3className="project-description">
+                This website is clone of DeskTime.
               </h3>
-              <h4>Tech Stack :</h4>
-              <div class="project-tech-stack">
-                <div>
-                  <img src={html} alt="html" />
-                </div>
-                <div>
-                  <img src={css} alt="css" />
-                </div>
-                <div>
-                  <img src={javascript} alt="js" />
-                </div>
-              </div>
-              <div className="portfolio__item-cta">
-                <a
-                  className="project-github-link"
-                  href="https://github.com/nitishmandal01/pointless-books-8646"
-                  target="_blank"
-                >
-                  Github
-                </a>
-                <a
-                  className="project-deployed-link"
-                  href="https://time-rocket.netlify.app/index.html"
-                  // className="btn btn-primary"
-                  target="_blank"
-                >
-                  Live Demo
-                </a>
-              </div>
             </article>
           </div>
         </div>
+        */}
       </section>
     </div>
   );

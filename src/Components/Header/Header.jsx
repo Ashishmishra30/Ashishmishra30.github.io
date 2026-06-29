@@ -1,17 +1,10 @@
 import React from "react";
-import CTA from "./CTA";
 import "./Header.css";
 import me from "../../assets/me.JPG";
 import HeaderSocials from "./HeaderSocials";
 import Ashish_Mishra_Resume from "../../assets/Ashish_Mishra_Resume.pdf";
 
-export const resumeLink =
-  " https://drive.google.com/file/d/1TIIo45RBDZH0vmRDmeTqCpsOcLgu5sIz/view?usp=share_link";
-
 export const Header = () => {
-  const handleResume = () => {
-    window.open(resumeLink);
-  };
   return (
     <header>
       <div id="home" className="container header_container">
@@ -22,19 +15,15 @@ export const Header = () => {
         </h5>
         {/* <CTA/> */}
         <div className="cta">
-          <button id="resume-button-2" onClick={handleResume}>
-            <a
-              id="resume-link-2"
-              href={Ashish_Mishra_Resume}
-              download="Ashish_Mishra_Resume"
-              target="_blank"
-              rel="noreferrer"
-              className="btn btn-primary"
-            >
-              Resume
-            </a>
-          </button>
-          {/* <a href="#contact" className="btn btn-primary">
+          <a
+            id="resume-link-2"
+            href={Ashish_Mishra_Resume}
+            download="Ashish_Mishra_Resume.pdf"
+            className="btn btn-primary"
+          >
+            Resume
+          </a>
+          {/* <a href="#contact"  className="btn btn-primary">
             Let's Talk
           </a> */}
         </div>

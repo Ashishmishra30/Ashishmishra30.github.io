@@ -9,7 +9,6 @@ import Ashish_Mishra_Resume from "../../assets/Ashish_Mishra_Resume.pdf";
 // } from "react-icons/ai";
 // import { FaUserAlt } from "react-icons/fa";
 // import { BsFillBookFill } from "react-icons/bs";
-import { resumeLink } from "../Header/Header";
 
 // export const Navbar = () => {
 //   const [activeNav, setActiveNav] = useState("#");
@@ -19,12 +18,12 @@ import { resumeLink } from "../Header/Header";
 //   };
 //   return (
 //     <div id="nav-menu">
-//       <nav className="navbar">
+//       <nav  className="navbar">
 //         <a
 //           href="#"
 //           onClick={() => setActiveNav("#")}
-//           className={activeNav === "#" ? "active" : ""}
-//           class="nav-link home"
+//            className={activeNav === "#" ? "active" : ""}
+//           className="nav-link home"
 //         >
 //           {" "}
 //           <span>
@@ -35,8 +34,8 @@ import { resumeLink } from "../Header/Header";
 //         <a
 //           href="#about"
 //           onClick={() => setActiveNav("#about")}
-//           className={activeNav === "#about" ? "active" : ""}
-//           class="nav-link about"
+//            className={activeNav === "#about" ? "active" : ""}
+//           className="nav-link about"
 //         >
 //           {" "}
 //           <span>
@@ -47,8 +46,8 @@ import { resumeLink } from "../Header/Header";
 //         <a
 //           href="#skills"
 //           onClick={() => setActiveNav("#skills")}
-//           className={activeNav === "#skills" ? "active" : ""}
-//           class="nav-link skills"
+//            className={activeNav === "#skills" ? "active" : ""}
+//           className="nav-link skills"
 //         >
 //           {" "}
 //           <span>
@@ -59,8 +58,8 @@ import { resumeLink } from "../Header/Header";
 //         <a
 //           href="#projects"
 //           onClick={() => setActiveNav("#projects")}
-//           className={activeNav === "#projects" ? "active" : ""}
-//           class="nav-link projects"
+//            className={activeNav === "#projects" ? "active" : ""}
+//           className="nav-link projects"
 //         >
 //           {" "}
 //           <span>
@@ -71,8 +70,8 @@ import { resumeLink } from "../Header/Header";
 //         <a
 //           href="#contact"
 //           onClick={() => setActiveNav("#contact")}
-//           className={activeNav === "#contact" ? "active" : ""}
-//           class="nav-link contact"
+//            className={activeNav === "#contact" ? "active" : ""}
+//           className="nav-link contact"
 //         >
 //           {" "}
 //           <span>
@@ -86,7 +85,7 @@ import { resumeLink } from "../Header/Header";
 //             href={Ashish_Mishra_Resume}
 //             download="Ashish_Mishra_Resume"
 //             target="_blank"
-//             className="nav-link resume"
+//              className="nav-link resume"
 //             rel="noreferrer"
 //           >
 //             {" "}
@@ -102,8 +101,6 @@ import { resumeLink } from "../Header/Header";
 // };
 
 import { Link } from "react-scroll";
-import me from "../../assets/me.JPG";
-import { HiDownload } from "react-icons/hi";
 import { AiOutlineDownload } from "react-icons/ai";
 
 import { RxHamburgerMenu } from "react-icons/rx";
@@ -119,17 +116,10 @@ import {
 import { useState } from "react";
 
 function Navbar() {
-  const openLink = (url) => {
-    window.open(url);
-  };
-  const handleResume = () => {
-    window.open(resumeLink);
-  };
-
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   const [isSmallerScreen] = useMediaQuery("(max-width: 768px)");
-  const [bodyVisible, setBodyVisible] = useState(!isSmallerScreen);
+  const [, setBodyVisible] = useState(!isSmallerScreen);
 
   const handleMenuClick = () => {
     if (isSmallerScreen) {
@@ -208,22 +198,18 @@ function Navbar() {
             </Link>
           </div>
           <div>
-          <button id="resume-button-1" onClick={handleResume}>
-          <a
-            id="resume-link-1"
-           href={Ashish_Mishra_Resume}
-         download="Ashish_Mishra_Resume"
-           target="_blank"
-           className="nav-link resume"
-           rel="noreferrer"
-         >
-           {" "}
-           <span>
-              <AiOutlineDownload />
-           </span>{" "}
-           Resume
-          </a>
-        </button> 
+            <a
+              id="resume-link-1"
+              href={Ashish_Mishra_Resume}
+              download="Ashish_Mishra_Resume.pdf"
+              className="nav-link resume"
+            >
+              {" "}
+              <span>
+                <AiOutlineDownload />
+              </span>{" "}
+              Resume
+            </a>
           </div>
         </div>
         <div className="responce">
@@ -295,22 +281,18 @@ function Navbar() {
                     </Link>
                   </div>
                   <div>
-                  <button id="resume-button-1" onClick={handleResume}>
-          <a
-            id="resume-link-1"
-           href={Ashish_Mishra_Resume}
-         download="Ashish_Mishra_Resume"
-           target="_blank"
-           className="nav-link resume"
-           rel="noreferrer"
-         >
-           {" "}
-           <span>
-              <AiOutlineDownload />
-           </span>{" "}
-           Resume
-          </a>
-        </button> 
+                    <a
+                      id="resume-link-1"
+                      href={Ashish_Mishra_Resume}
+                      download="Ashish_Mishra_Resume.pdf"
+                      className="nav-link resume"
+                    >
+                      {" "}
+                      <span>
+                        <AiOutlineDownload />
+                      </span>{" "}
+                      Resume
+                    </a>
                   </div>
                 </div>
               </DrawerBody>
@@ -322,4 +304,4 @@ function Navbar() {
   );
 }
 
-export  {Navbar};
+export { Navbar };

@@ -1,6 +1,5 @@
 import React from "react";
 import "./calender.css";
-import GitHubCalendar from "react-github-calendar";
 
 const Calander = () => {
   return (
@@ -45,16 +44,12 @@ const Calander = () => {
             id="cal"
             style={{ marginTop: "30px", color: "white" }}
           >
-            {/* <!-- Loading stuff --> */}
-            {/* Loading the data just for you. */}
-            <GitHubCalendar
-              username="ashishmishra30"
-              blockSize={20}
-              blockMargin={5}
-              color="#2c2c6c"
-              fontSize={16}
-              colorScheme="dark"
-              m={"auto"}
+            {/* Image-based contribution graph — no JS dependency, never breaks the app */}
+            <img
+              id="github-contribution-graph"
+              src="https://ghchart.rshah.org/4db5ff/Ashishmishra30"
+              alt="Ashish Mishra's GitHub contribution graph"
+              loading="lazy"
             />
           </div>
         </div>

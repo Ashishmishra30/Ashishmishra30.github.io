@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import "./Skills.css";
 import html from "../../assets/html.png";
 import css from "../../assets/css.png";
@@ -15,64 +15,63 @@ import chakra from "../../assets/chakra.jpg";
 
 export const Skills = () => {
   return (
-    <div >
-      <section id='skills'>
+    <div>
+      <section id="skills">
         <h5>What Skills I Have</h5>
         <h2>Skills</h2>
         <div className="container experience_container">
-        <div id="grid">
+          <div id="grid">
             <div class="skills-card">
-                <img class="skills-card-img" src={html} alt="html"/>
-                <p class="skills-card-name">HTML</p>
+              <img class="skills-card-img" src={html} alt="html" />
+              <p class="skills-card-name">HTML</p>
             </div>
             <div class="skills-card">
-                <img class="skills-card-img" src={css} alt="css"/>
-                <p class="skills-card-name">CSS</p>
+              <img class="skills-card-img" src={css} alt="css" />
+              <p class="skills-card-name">CSS</p>
             </div>
             <div class="skills-card">
-                <img class="skills-card-img" src={javascript} alt="JavaScript"/>
-                <p class="skills-card-name">JavaScript</p>
+              <img class="skills-card-img" src={javascript} alt="JavaScript" />
+              <p class="skills-card-name">JavaScript</p>
             </div>
             <div class="skills-card">
-                <img class="skills-card-img" src={react} alt="react"/>
-                <p class="skills-card-name">React</p>
+              <img class="skills-card-img" src={react} alt="react" />
+              <p class="skills-card-name">React</p>
             </div>
             <div class="skills-card">
-                <img class="skills-card-img" src={redux} alt="Redux"/>
-                <p class="skills-card-name">Redux</p>
+              <img class="skills-card-img" src={redux} alt="Redux" />
+              <p class="skills-card-name">Redux</p>
             </div>
             <div class="skills-card">
-                <img class="skills-card-img" src={node} alt="MongoDB"/>
-                <p class="skills-card-name">Node.js</p>
+              <img class="skills-card-img" src={node} alt="MongoDB" />
+              <p class="skills-card-name">Node.js</p>
             </div>
             <div class="skills-card">
-                <img class="skills-card-img" src={next} alt="sql"/>
-                <p class="skills-card-name">Next.js</p>
+              <img class="skills-card-img" src={next} alt="sql" />
+              <p class="skills-card-name">Next.js</p>
             </div>
             <div class="skills-card">
-                <img class="skills-card-img" src={typescript} alt="TypeScript"/>
-                <p class="skills-card-name">TypeScript</p>
+              <img class="skills-card-img" src={typescript} alt="TypeScript" />
+              <p class="skills-card-name">TypeScript</p>
             </div>
             <div class="skills-card">
-                <img class="skills-card-img" src={chakra} alt="Chakra"/>
-                <p class="skills-card-name">Chakra UI</p>
+              <img class="skills-card-img" src={chakra} alt="Chakra" />
+              <p class="skills-card-name">Chakra UI</p>
             </div>
             <div class="skills-card">
-                <img class="skills-card-img" src={mongo} alt="mongo"/>
-                <p class="skills-card-name">MongoDB</p>
+              <img class="skills-card-img" src={mongo} alt="mongo" />
+              <p class="skills-card-name">MongoDB</p>
             </div>
             <div class="skills-card">
-                <img class="skills-card-img" src={github} alt="github"/>
-                <p class="skills-card-name">Github</p>
+              <img class="skills-card-img" src={github} alt="github" />
+              <p class="skills-card-name">Github</p>
             </div>
             <div class="skills-card">
-                <img class="skills-card-img" src={tailwind} alt="tailwind"/>
-                <p class="skills-card-name">Tailwind</p>
+              <img class="skills-card-img" src={tailwind} alt="tailwind" />
+              <p class="skills-card-name">Tailwind</p>
             </div>
+          </div>
         </div>
-        </div>
-
       </section>
     </div>
-  )
-}
+  );
+};
